@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Agora Vai</string>
+    <string name="aluno">Aluno</string>
+    <string name="disciplinas">Disciplinas</string>
+    <string name="atividades_extras">Atividades extras</string>
+    <string name="sair">Sair</string>
+    <string name="Disciplinas">Disciplinas</string>
+    <string name="professor">Professor</string>
+    <string name="m_dia">Média</string>
+    <string name="salvar">Salvar</string>
+    <string name="nome_da_disciplina">Nome da Disciplina</string>
+    <string name="apelido_da_disciplina">Apelido da Disciplina</string>
+    <string name="nome_do_professor">Nome do Professor</string>
+    <string name="m_dia_pessoal_para_esta_mat_ria">Média pessoal para esta matéria</string>
+    <string name="apelido_disciplina">Apelido disciplina</string>
+    <string name="nova_disciplina">Nova Disciplina</string>
+    <string name="nome_completo">Nome Completo</string>
+    <string name="nome_da_escola">Nome da Escola</string>
+    <string name="m_dia_da_escola">Média da Escola</string>
+    <string name="email" translatable="false">Email</string>
+    <string name="senha">Senha</string>
+    <string name="novo_aluno">Novo Aluno</string>
+    <string name="entrar">Entrar</string>
+    <string name="cadastre_se">Cadastre-se</string>
+    <string name="descricao">Descrição</string>
+    <string name="nome_da_atividade">Nome da atividade</string>
+    <string name="nomee">Nome:</string>
+    <string name="professorr">Professor:</string>
+    <string name="descricaoo">Descricao:</string>
+    <string name="excluir">Excluir</string>
+    <string name="editar">Editar</string>
+    <string name="prova_mensal">Prova Mensal</string>
+    <string name="nao">Não</string>
+    <string name="sim">Sim</string>
+    <string name="escola">Escola</string>
+    <string name="nome">Nome</string>
+    <string name="detalhes">Detalhes</string>
+    <string name="nome_da_escola_institui_o">Nome da escola/Instituição:</string>
+    <string name="quantidade_de_bimestres">Quantidade de bimestres</string>
+    <string name="m_dia_pessoal">Média Pessoal</string>
+    <string name="nome_da_escola_institui_oo">Nome da escola/Instituição</string>
+    <string name="valor_bimestre">Valor Bimestre</string>
+</resources>

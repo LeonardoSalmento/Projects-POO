@@ -1,0 +1,116 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "2:4656105402208221061",
+      "lastPropertyId": "7:5251392057917043050",
+      "name": "Disciplina",
+      "properties": [
+        {
+          "id": "1:2156593782974130750",
+          "name": "idDisciplina"
+        },
+        {
+          "id": "2:8616356365023225015",
+          "name": "nomeDisciplina"
+        },
+        {
+          "id": "3:395432121523446460",
+          "name": "nomeProfessor"
+        },
+        {
+          "id": "5:5202456601922454613",
+          "name": "nota"
+        },
+        {
+          "id": "6:5542169340509793340",
+          "name": "mediaPessoal"
+        },
+        {
+          "id": "7:5251392057917043050",
+          "name": "quantidadeDeBimestres"
+        }
+      ],
+      "relations": [
+        {
+          "id": "2:307808602231332762",
+          "name": "bimestre"
+        }
+      ]
+    },
+    {
+      "id": "3:6412749932645712454",
+      "lastPropertyId": "4:3495591412735992546",
+      "name": "Aluno",
+      "properties": [
+        {
+          "id": "1:6492860182205424050",
+          "name": "idAluno"
+        },
+        {
+          "id": "2:8232051728125479117",
+          "name": "nome"
+        },
+        {
+          "id": "3:583760489633783084",
+          "name": "escola"
+        },
+        {
+          "id": "4:3495591412735992546",
+          "name": "mediaEscola"
+        }
+      ],
+      "relations": [
+        {
+          "id": "1:2662198328284384458",
+          "name": "disciplina"
+        }
+      ]
+    },
+    {
+      "id": "4:7254029633056868420",
+      "lastPropertyId": "4:2827154661827368093",
+      "name": "Bimestre",
+      "properties": [
+        {
+          "id": "1:3771212935637623855",
+          "name": "idBimestre"
+        },
+        {
+          "id": "2:3756619646026525976",
+          "name": "notaMensal"
+        },
+        {
+          "id": "3:164845897143147508",
+          "name": "notaBimestral"
+        },
+        {
+          "id": "4:2827154661827368093",
+          "name": "notaRecuperacao"
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "4:7254029633056868420",
+  "lastIndexId": "0:0",
+  "lastRelationId": "2:307808602231332762",
+  "lastSequenceId": "0:0",
+  "modelVersion": 4,
+  "modelVersionParserMinimum": 4,
+  "retiredEntityUids": [
+    209248910041184266
+  ],
+  "retiredIndexUids": [],
+  "retiredPropertyUids": [
+    8644841025884060533,
+    6075291305151128336,
+    8604162112925998969,
+    5645292900972292097,
+    5340910861148602914
+  ],
+  "retiredRelationUids": [],
+  "version": 1
+}

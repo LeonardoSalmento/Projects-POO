@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.leo.novoprojetofinal">
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".app.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".app.ListaDisciplinaActivity"
+            android:label="@string/Disciplinas"
+            android:parentActivityName=".app.MainActivity" />
+        <activity
+            android:name=".app.CadastroDisciplinaActivity"
+            android:label="@string/nova_disciplina"
+            android:parentActivityName=".app.ListaDisciplinaActivity" />
+        <activity
+            android:name=".app.CadastroAlunoActivity"
+            android:label="@string/novo_aluno"
+            android:parentActivityName=".app.LoginActivity" />
+        <activity
+            android:name=".app.LoginActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".app.AlunoActivity"
+            android:label="@string/aluno"
+            android:parentActivityName=".app.MainActivity" />
+        <activity
+            android:name=".app.ListaAtividadeExtraActivity"
+            android:label="@string/atividades_extras"
+            android:parentActivityName=".app.MainActivity" />
+        <activity
+            android:name=".app.CadastroAtividadeExtraActivity"
+            android:label="Nova Atividade"
+            android:parentActivityName=".app.ListaAtividadeExtraActivity" />
+        <activity
+            android:name=".app.ItemAtividadeExtraActivity"
+            android:parentActivityName=".app.ListaAtividadeExtraActivity" />
+        <activity android:name=".app.ListaBimestreActivity" />
+        <activity
+            android:name=".app.EditarDisciplinaActivity"
+            android:label="Editar Disciplina" />
+        <activity android:name=".app.CadastroBimestreActivity" />
+        <activity android:name=".app.ItemBimestreActivity"></activity>
+    </application>
+
+</manifest>

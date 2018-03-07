@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Anuncios</string>
+    <string name="title_activity_novo_anuncio_cadastro">NovoAnuncioCadastro</string>
+    <string name="cadastre_se">Cadastre-se</string>
+    <string name="entrar">Entrar</string>
+    <string name="senha">Senha</string>
+    <string name="email">Email</string>
+</resources>

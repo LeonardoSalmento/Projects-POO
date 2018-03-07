@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Nome Super Legal</string>
+    <string name="e_mail">E-mail</string>
+    <string name="nome_completo">Nome Completo</string>
+    <string name="nome_da_escola">Nome da Escola</string>
+    <string name="media_da_escola">Media da Escola</string>
+    <string name="aluno">Aluno</string>
+    <string name="disciplinas">Disciplinas</string>
+    <string name="atividades_extras_eventos">Atividades Extras/Eventos</string>
+    <string name="sair">Sair</string>
+    <string name="entrar">Entrar</string>
+    <string name="senha">Senha</string>
+    <string name="cadastre_se">Cadastre-se</string>
+    <string name="logo">Logo</string>
+    <string name="disciplina">Disciplina</string>
+    <string name="professor">Professor</string>
+    <string name="m_dia">Média</string>
+    <string name="nome_do_professor">Nome do Professor</string>
+    <string name="m_dia_pessoal">Média pessoal</string>
+    <string name="quantidade_de_bimestres">Quantidade de bimestres</string>
+    <string name="nome_da_disciplina">Nome da disciplina</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="legenda">Legenda</string>
+    <string name="azul_m_dia_pessoal_atingida">Azul - Média pessoal atingida</string>
+    <string name="verde_m_dia_da_escola_atingida">Verde - Média da escola atingida</string>
+    <string name="vermelho_abaixo_da_m_dia_da_escola">Vermelho - Abaixo da média da escola</string>
+    <string name="atividades_extras">Atividades Extras</string>
+    <string name="salvar">Salvar</string>
+    <string name="apelido_da_disciplina">Apelido da Disciplina</string>
+</resources>

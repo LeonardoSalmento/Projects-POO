@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.leo.novoprojetofinal.app.ListaBimestreActivity"
+    android:orientation="vertical"
+    android:padding="4dp">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_lista_bimestre"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_novo_bimestre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:layout_anchorGravity="bottom|end|right"
+        app:layout_anchor="@id/rv_lista_bimestre"
+        android:layout_gravity="right|end|bottom"
+        android:src="@mipmap/ic_launcher_foreground"
+        />
+
+
+
+</android.support.design.widget.CoordinatorLayout>

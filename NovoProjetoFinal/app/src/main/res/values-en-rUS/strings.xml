@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Agora Vai</string>
+    <string name="aluno">Student</string>
+    <string name="sair">Logout</string>
+    <string name="professor">Teacher</string>
+    <string name="salvar">Save</string>
+    <string name="nome_do_professor">Teacher\'s name</string>
+    <string name="nome_completo">Full Name</string>
+    <string name="nome_da_escola">School\'s name</string>
+    <string name="senha">Password</string>
+    <string name="novo_aluno">New Student</string>
+    <string name="entrar">Sign in</string>
+    <string name="cadastre_se">Sign up</string>
+</resources>

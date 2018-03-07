@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:elevation="4dp"
+    app:cardCornerRadius="4dp"
+    android:padding="10dp"
+    android:clickable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:focusable="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/image_anuncio"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@mipmap/ic_algo"/>
+
+        <LinearLayout
+            android:padding="5dp"
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/cv_nome"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Nome do produto"
+                android:maxLength="15"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/cv_local"
+                android:layout_marginTop="10dp"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="localizacao"
+                android:maxLength="25"
+                android:textSize="14sp"
+                />
+
+
+            <TextView
+                android:id="@+id/cv_data"
+                android:layout_marginTop="5dp"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="data"
+                android:maxLength="25"
+                android:textSize="14sp"
+                />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/cv_preco"
+            android:layout_weight="0.8"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="24,50"
+            android:maxLength="15"
+            android:textSize="13sp"
+            android:layout_gravity="center_vertical"/>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

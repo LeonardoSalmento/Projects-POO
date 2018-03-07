@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/item_detalhes_atividade_extra"
+        android:title="@string/detalhes"
+        />
+
+    <item
+        android:id="@+id/item_editar_atividade_extra"
+        android:title="@string/editar"
+        />
+
+    <item
+        android:id="@+id/item_excluir_atividade_extra"
+        android:title="@string/excluir"
+        />
+
+</menu>
